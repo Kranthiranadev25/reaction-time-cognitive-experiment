@@ -1,39 +1,59 @@
-# reaction-time-cognitive-experiment
-A small cognitive science experiment analyzing human reaction time under different conditions.
 # Human Reaction Time Cognitive Experiment
 
 ## Objective
-This project investigates how quickly humans respond to visual stimuli and how distraction affects reaction time.
+This project studies how distraction affects human reaction time.
 
-## Background
-Reaction time is an important measure in cognitive science and sensorimotor processing. It reflects how the brain processes sensory information and produces motor responses.
+Reaction time is the time taken by the brain to process a stimulus and produce a motor response.
 
-## Experiment Design
-Participants perform an online reaction time test.
+## Research Question
+Does distraction increase reaction time?
 
-Two conditions:
-1. Normal environment
-2. Distraction condition (music playing)
+## Hypothesis
+Reaction time will increase when a person is distracted because attention is divided.
 
-Each condition will include around 20 trials.
+## Method
+
+Participants performed an online reaction time test.
+
+Website used:
+https://humanbenchmark.com/tests/reactiontime
+
+Two experimental conditions were tested:
+
+1. Normal condition (quiet environment)
+2. Distraction condition (background music)
+
+Each condition contained 20 trials.
+
+Total trials: 40
 
 ## Data Collection
-Reaction time values will be recorded in milliseconds.
 
-## Planned Analysis
-The dataset will be analyzed using Python and Excel to calculate:
-- Mean reaction time
-- Variation between conditions
+Reaction time values were recorded in milliseconds and stored in a dataset.
 
-## Expected Outcome
-Reaction time is expected to increase under distraction conditions due to increased cognitive load.
+## Data Analysis
 
-## Tools
+Mean reaction time was calculated for both conditions using Python.
+
+## Results
+
+Average Reaction Time (Normal): 243.5 ms  
+Average Reaction Time (Distraction): 307.75 ms
+
+The results show that reaction time increased during distraction.
+
+## Conclusion
+
+Distraction increases reaction time, suggesting that cognitive load affects sensorimotor response speed.
+
+## Tools Used
+
 Python  
-Excel  
+Microsoft Excel  
 HumanBenchmark Reaction Time Test
 
 ## Author
+
 Kranthi Ranadev Mittapelly  
 B.Tech Biotechnology  
-National Institute of Technology Warangal.
+National Institute of Technology Warangal
